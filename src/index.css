@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (max-width: 600px) {
+    .navImage{
+        height: 30px;
+        width: 50px;
+        scale: 3;
+        padding-left: 20px;
+     }
+     
+     .log-in{
+         font-size: 10px;
+     }
+     .sign-up{
+         font-size: 10px;
+     }
+     .log-out{
+        font-size: 10px;
+     }
+     .dashboard{
+        font-size: 10px;
+     }
+     .home{
+        font-size: 10px;
+     }
+    .navSection{
+        display: none;
+    }
+    .loginsection{
+        font-size: 16px;
+    }
+    .img {
+        display: none;
+    }
+    .full{
+        height: full;   
+    }
+    
+  
+}
+
+ 
