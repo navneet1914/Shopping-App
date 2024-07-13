@@ -20,7 +20,7 @@ const Cart = () => {
 
   return (
     <div className="flex flex-col lg:flex-row justify-between max-w-6xl lg:mx-auto">
-    <div className="flex flex-col mb-10 mt-10 w-full lg:max-w-2xl mx-auto">
+    <div className="flex flex-col mb-10 mt-10 w-full] lg:max-w-2xl">
       {cart.length > 0 ? (
         cart.map((item, index) => <CartItem key={index} item={item} />)
       ) : ( 
